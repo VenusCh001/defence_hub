@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Startup Registration Form</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+  <h2>Startup Registration Form</h2>
+  <form>
+    <div class="form-group">
+      <label for="startup-name">Name of Startup:</label>
+      <input type="text" id="startup-name" name="startup-name" required>
+    </div>
+    <div class="form-group">
+      <label for="category">Category:</label>
+      <select id="category" name="category" required>
+        <option value="" disabled selected>Select category</option>
+        <option value="AI">AI</option>
+        <option value="Robotics">Robotics</option>
+        <option value="Cybersecurity">Cybersecurity</option>
+        <option value="Drone Technology">Drone Technology</option>
+        <option value="Aerospace">Aerospace</option>
+        <option value="IoT">IoT</option>
+      </select>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+</div>
+
+</body>
+</html>
